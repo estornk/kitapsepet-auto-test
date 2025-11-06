@@ -38,3 +38,5 @@ Amaç, **Kitapsepeti** web sitesindeki temel kullanıcı akışlarını (giriş,
 - Video ve ekran görüntüleri `cypress/videos/` ve `cypress/screenshots/` klasörlerinde tutulur.
 
 ---
+
+[Videoları buradan indirilebilir](https://drive.google.com/file/d/1DPuqwLURehG7oTaos6HjFJf6lmx219bX/view?usp=sharing))
