@@ -39,3 +39,12 @@ jobs:
         with:
           name: cypress-test-report
           path: mochawesome-report
+      - name: Publish Test Report to PR Comment
+        if: ${{ github.event_name == 'pull_request' }}
+        uses: mikeal/publish-to-github-action@master
+        with:
+          args: |
+            echo "## Cypress Test Results"
+            echo "\`\`\`"
+            cat cypress/results/*.xml
+            echo "\`\`\`"

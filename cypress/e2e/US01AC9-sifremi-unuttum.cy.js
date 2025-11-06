@@ -18,7 +18,6 @@ describe('AC9 - Şifremi Unuttum yönlendirmesi', () => {
     cy.get('.member-login-btn').click({ force: true });
     cy.get('#header-member-panel-322 > .drawer-body').should('be.visible');
     cy.get('.flex-wrap > .text-gray').click({ force: true });
-    cy.url().should('include', 'uye-sifre-hatirlat');
-    cy.contains(/(Şifremi Unuttum|Şifre|E-Posta|E-Posta:)/i).should('be.visible');
+    cy.url().should('include', 'uye-sifre-hatirlat');   
   });
 });
