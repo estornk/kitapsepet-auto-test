@@ -38,16 +38,3 @@ Amaç, **Kitapsepeti** web sitesindeki temel kullanıcı akışlarını (giriş,
 - Video ve ekran görüntüleri `cypress/videos/` ve `cypress/screenshots/` klasörlerinde tutulur.
 
 ---
-
-## 📁 Klasör Yapısı
-
-kitapsepet-auto-test/
-├── cypress/
-│ ├── e2e/ # Test dosyaları
-│ ├── fixtures/ # Test verileri (örnek JSON)
-│ ├── pages/ # POM yapısındaki sayfa objeleri
-│ └── support/ # Cypress destek komutları
-├── cypress.config.js # Cypress yapılandırması
-├── package.json # Proje bağımlılıkları
-├── package-lock.json
-└── README.md # Proje açıklaması ve test tablosu
